@@ -17,6 +17,7 @@
 		8E2B123729A2C66800F4D513 /* DownloadImageAsyncImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B123129A2C66800F4D513 /* DownloadImageAsyncImageLoader.swift */; };
 		8E2B123829A2C66800F4D513 /* DownloadImageAsyncView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B123229A2C66800F4D513 /* DownloadImageAsyncView.swift */; };
 		8E2B123929A2C66800F4D513 /* DownloadImageAsyncViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B123329A2C66800F4D513 /* DownloadImageAsyncViewModel.swift */; };
+		8E2B123C29A2CD6D00F4D513 /* URLSession+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B123B29A2CD6D00F4D513 /* URLSession+Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		8E2B123129A2C66800F4D513 /* DownloadImageAsyncImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyncImageLoader.swift; sourceTree = "<group>"; };
 		8E2B123229A2C66800F4D513 /* DownloadImageAsyncView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyncView.swift; sourceTree = "<group>"; };
 		8E2B123329A2C66800F4D513 /* DownloadImageAsyncViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyncViewModel.swift; sourceTree = "<group>"; };
+		8E2B123B29A2CD6D00F4D513 /* URLSession+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSession+Helpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				8E2B121D29A2C5AD00F4D513 /* SwiftConcurrency */,
+				8E2B123A29A2CD6D00F4D513 /* Helpers */,
 				8E2B121C29A2C5AD00F4D513 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,6 +102,14 @@
 				8E2B123329A2C66800F4D513 /* DownloadImageAsyncViewModel.swift */,
 			);
 			path = DownloadImageAsync;
+			sourceTree = "<group>";
+		};
+		8E2B123A29A2CD6D00F4D513 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8E2B123B29A2CD6D00F4D513 /* URLSession+Helpers.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +187,7 @@
 				8E2B122129A2C5AD00F4D513 /* ContentView.swift in Sources */,
 				8E2B123929A2C66800F4D513 /* DownloadImageAsyncViewModel.swift in Sources */,
 				8E2B123429A2C66800F4D513 /* DoCatchTryThrowsDataManager.swift in Sources */,
+				8E2B123C29A2CD6D00F4D513 /* URLSession+Helpers.swift in Sources */,
 				8E2B121F29A2C5AD00F4D513 /* SwiftConcurrencyApp.swift in Sources */,
 				8E2B123729A2C66800F4D513 /* DownloadImageAsyncImageLoader.swift in Sources */,
 				8E2B123829A2C66800F4D513 /* DownloadImageAsyncView.swift in Sources */,
