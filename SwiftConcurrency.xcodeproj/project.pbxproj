@@ -18,6 +18,8 @@
 		8E2B123829A2C66800F4D513 /* DownloadImageAsyncView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B123229A2C66800F4D513 /* DownloadImageAsyncView.swift */; };
 		8E2B123929A2C66800F4D513 /* DownloadImageAsyncViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B123329A2C66800F4D513 /* DownloadImageAsyncViewModel.swift */; };
 		8E2B123C29A2CD6D00F4D513 /* URLSession+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B123B29A2CD6D00F4D513 /* URLSession+Helpers.swift */; };
+		8E73F61F29A43120006189B4 /* AsyncAwaitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E73F61D29A43120006189B4 /* AsyncAwaitViewModel.swift */; };
+		8E73F62029A43120006189B4 /* AsyncAwaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E73F61E29A43120006189B4 /* AsyncAwaitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		8E2B123229A2C66800F4D513 /* DownloadImageAsyncView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyncView.swift; sourceTree = "<group>"; };
 		8E2B123329A2C66800F4D513 /* DownloadImageAsyncViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyncViewModel.swift; sourceTree = "<group>"; };
 		8E2B123B29A2CD6D00F4D513 /* URLSession+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSession+Helpers.swift"; sourceTree = "<group>"; };
+		8E73F61D29A43120006189B4 /* AsyncAwaitViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncAwaitViewModel.swift; sourceTree = "<group>"; };
+		8E73F61E29A43120006189B4 /* AsyncAwaitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncAwaitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 				8E2B121E29A2C5AD00F4D513 /* SwiftConcurrencyApp.swift */,
 				8E2B122029A2C5AD00F4D513 /* ContentView.swift */,
 				8E2B122229A2C5AE00F4D513 /* Assets.xcassets */,
+				8E73F61C29A43120006189B4 /* AsyncAwait */,
 				8E2B122429A2C5AE00F4D513 /* Preview Content */,
 				8E2B122C29A2C66700F4D513 /* DoCatchTryThrows */,
 				8E2B123029A2C66800F4D513 /* DownloadImageAsync */,
@@ -110,6 +115,15 @@
 				8E2B123B29A2CD6D00F4D513 /* URLSession+Helpers.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8E73F61C29A43120006189B4 /* AsyncAwait */ = {
+			isa = PBXGroup;
+			children = (
+				8E73F61D29A43120006189B4 /* AsyncAwaitViewModel.swift */,
+				8E73F61E29A43120006189B4 /* AsyncAwaitView.swift */,
+			);
+			path = AsyncAwait;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +198,8 @@
 			files = (
 				8E2B123529A2C66800F4D513 /* DoCatchTryThrowsView.swift in Sources */,
 				8E2B123629A2C66800F4D513 /* DoCatchTryThrowsViewModel.swift in Sources */,
+				8E73F62029A43120006189B4 /* AsyncAwaitView.swift in Sources */,
+				8E73F61F29A43120006189B4 /* AsyncAwaitViewModel.swift in Sources */,
 				8E2B122129A2C5AD00F4D513 /* ContentView.swift in Sources */,
 				8E2B123929A2C66800F4D513 /* DownloadImageAsyncViewModel.swift in Sources */,
 				8E2B123429A2C66800F4D513 /* DoCatchTryThrowsDataManager.swift in Sources */,
